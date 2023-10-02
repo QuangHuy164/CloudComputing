@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Person</string>
+    <string name="welcome_text">Person</string>
+    <string name="label_first_name">First Name:</string>
+    <string name="label_surname">Surname:</string>
+    <string name="label_phone_number">Phone Number:</string>
+    <string name="label_email">Email Address:</string>
+    <string name="submit_button">Submit</string>
+</resources>

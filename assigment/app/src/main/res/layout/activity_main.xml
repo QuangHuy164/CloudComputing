@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="160dp"
+            android:text="@string/login_txt" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tw_uname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/tw_pswd"
+        android:layout_alignEnd="@id/tw_pswd"
+        android:layout_marginBottom="57dp"
+        android:text="@string/uname" />
+
+    <TextView
+        android:id="@+id/tw_pswd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="128dp"
+        android:text="@string/pswd" />
+
+    <EditText
+        android:id="@+id/editText_uname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tw_uname"
+        android:layout_alignBottom="@+id/tw_uname"
+        android:layout_alignStart="@+id/editText_pswd"
+        android:contentDescription="@string/uname_hint"
+        android:hint="@string/uname_hint"
+        android:ems="20"
+        android:importantForAutofill="no"
+        android:inputType="text">
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText_pswd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tw_pswd"
+        android:layout_marginStart="46dp"
+        android:layout_toEndOf="@id/tw_pswd"
+        android:contentDescription="@string/password_hint"
+        android:hint="@string/password_hint"
+        android:ems="20"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/tw_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/tw_phone"
+        android:layout_alignEnd="@id/tw_phone"
+        android:layout_marginBottom="57dp"
+        android:text="@string/phone" />
+    <EditText
+        android:id="@+id/phonenumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tw_pswd"
+        android:layout_marginStart="46dp"
+        android:layout_toEndOf="@id/phonenumber"
+        android:contentDescription="@string/phonenumber"
+
+        android:ems="20"
+        android:inputType="number" />
+
+
+</RelativeLayout>

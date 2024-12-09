@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">assigment1</string>
+    <string name="password_hint">password\n</string>
+    <string name="login_txt">login\n</string>
+    <string name="uname_hint">username\n</string>
+    <string name="pswd">Phone Number\n</string>
+    <string name="uname">Username\n</string>
+    <string name="phonenumber">phone</string>
+    <string name="phone">phone</string>
+</resources>
